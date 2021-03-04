@@ -135,22 +135,15 @@ function CenteredGrid(){
 					  container
 					  direction="column"
 					  justify="center"
-					  alignItems="center"
+					  alignItems="stretch"
 					  spacing={3}>
-						<Grid item xs={12}>
-							<Router>
-									<div>
-										<Button variant="contained" color="white" style={{width:550}} to="/inicio" onClick={handleClick}>
+										<Button variant="contained" color="white" to="/inicio" onClick={handleClick}>
 										  Login
 										</Button>
-										<Route path="/inicio" component={DefaultPageView} />
-									</div>
-							</Router>
-						</Grid>
 						<Grid item xs={12}>
 							<Router>
 								<div>
-									<Link onClick = {makeRegistro}>
+									<Link to="/registro" onClick = {makeRegistro}>
 										  <h1>Create Account</h1>
 										</Link>
 									

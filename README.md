@@ -2,6 +2,12 @@
 
 https://task-planner-app-7eb18.web.app/
 
+# Credenciales                                
+```
+Username: userIETI                                                    
+Password: passwordIETI                     
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
